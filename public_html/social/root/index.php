@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style/style.css">
     </head>
     <body>
-   final2
+   
         <div class="overall">
            	<div class="wrap_overall">
 				<?php include_once("template_pageTop.php"); ?>
