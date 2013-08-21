@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="style/style.css">
     </head>
     <body>
-    hello
+    hii
         <div class="overall">
            	<div class="wrap_overall">
 				<?php include_once("template_pageTop.php"); ?>
@@ -20,5 +20,3 @@
         </div>
     </body>
 </html>
-
-
