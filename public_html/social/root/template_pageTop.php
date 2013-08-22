@@ -9,9 +9,17 @@
     <div id="pageTopRest">
       <div id="menu1">
         <div>
-          <a href="signup.php">Sign Up  </a>
-          /
-          <a href="login.php"> Log In </a>
+        <?php
+            if(isset($_POST["u"])){
+                echo '<a href="logout.php"> logout  </a>';
+            }
+            else if (!isset($_POST["u"])){
+            echo '<a href="signup.php">Sign Up  </a>';
+          echo '/';
+          echo '<a href="login.php"> Log In </a>';
+            }
+        ?>
+          
         </div>
       </div>
       <div id="menu2">
